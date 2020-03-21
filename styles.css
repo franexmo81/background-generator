@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 2vw;
+}
+
+body{
+  font-family: arial;
+  text-align: center;
+  background: linear-gradient(to right, #00ff00, #ff0000);
+  line-height: 1.5;
+}
+
+h1,h2{
+  text-transform: uppercase;
+  margin-top: 1rem;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+h3{
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+  }
+
+p{
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+input{
+  border-radius: 0.3rem;
+  margin: 0.5rem 3rem;
+  width: 5rem;
+  height: 3rem;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+input:hover{
+  transform: scale(1.2);
+}
